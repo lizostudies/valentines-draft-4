@@ -210,15 +210,15 @@ body {
     margin: 150px;
 }
 
-#image-container {
+.image-container {
     /* This container will hold the images */
 }
 
-#options {
+.options {
     margin-top: 20px; /* Add space above the options */
 }
 
-button {
+.button {
     padding: 10px 20px; /* Set padding for buttons */
     margin: 0 10px; /* Set margin around buttons */
     font-size: 26px; /* Set font size for buttons */

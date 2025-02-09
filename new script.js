@@ -3,17 +3,6 @@ $(document).ready(function() {
     var btn_open = $("#open");
     var btn_reset = $("#reset");
 
-    // Opening and closing envelope logic
-    envelope.click(function() {
-        open();
-    });
-    btn_open.click(function() {
-        open();
-    });
-    btn_reset.click(function() {
-        close();
-    });
-
     // Open envelope function
     function open() {
         envelope.addClass("open").removeClass("close");

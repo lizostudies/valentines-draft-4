@@ -210,13 +210,6 @@ body {
     margin: 150px;
 }
 
-@media screen and (max-width: 768px) {
-    .valentine {
-        font-size: 40px; /* Adjust font size on smaller screens */
-        margin: 50px; /* Reduce margin on smaller screens */
-    }
-}
-
 .image-container {
     /* This container will hold the images */
 }
@@ -235,10 +228,4 @@ body {
     border: none; /* Remove button border */
     cursor: pointer; /* Set cursor to pointer on hover */
     transition: all 0.3s ease;
-}
-
-/* Add hover effect for buttons */
-.button:hover {
-    background-color: #f1a1b2; /* Lighter shade of the button color */
-    transform: scale(1.05); /* Slightly enlarge button on hover */
 }

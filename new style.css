@@ -159,7 +159,7 @@ body {
     left: 20%;
     transform: scale(0.6);
     opacity: 1;
-    animation: slideUp 4s linear 1, sideSway 2s  ease-in-out 4 alternate;
+    animation: slideUp 4s linear 1, sideSway 2s ease-in-out 4 alternate;
     animation-fill-mode: forwards;
     animation-delay: 0.7s;
 }
@@ -167,7 +167,7 @@ body {
     left: 55%;
     transform: scale(1);
     opacity: 1;
-    animation: slideUp 5s linear 1, sideSway 4s  ease-in-out 2 alternate;
+    animation: slideUp 5s linear 1, sideSway 4s ease-in-out 2 alternate;
     animation-fill-mode: forwards;
     animation-delay: 0.7s;
 }
@@ -175,7 +175,7 @@ body {
     left: 10%;
     transform: scale(0.8);
     opacity: 1;
-    animation: slideUp 7s linear 1, sideSway 2s  ease-in-out 6 alternate;
+    animation: slideUp 7s linear 1, sideSway 2s ease-in-out 6 alternate;
     animation-fill-mode: forwards;
     animation-delay: 0.7s;
 }
@@ -205,9 +205,16 @@ body {
 .valentine {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color:rgb(20, 20, 20);
+    color: rgb(20, 20, 20);
     font-size: 70px;
     margin: 150px;
+}
+
+@media screen and (max-width: 768px) {
+    .valentine {
+        font-size: 40px; /* Adjust font size on smaller screens */
+        margin: 50px; /* Reduce margin on smaller screens */
+    }
 }
 
 .image-container {
@@ -227,4 +234,11 @@ body {
     color: rgb(0, 0, 0); /* Set text color to white */
     border: none; /* Remove button border */
     cursor: pointer; /* Set cursor to pointer on hover */
+    transition: all 0.3s ease;
+}
+
+/* Add hover effect for buttons */
+.button:hover {
+    background-color: #f1a1b2; /* Lighter shade of the button color */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
 }
